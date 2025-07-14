@@ -1,4 +1,16 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "a real-time chat website",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cloudinary": "^2.7.0",
